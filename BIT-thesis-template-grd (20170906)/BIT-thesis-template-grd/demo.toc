@@ -1,0 +1,16 @@
+\let \CTEX@spaceChar \relax 
+\contentsline {chapter}{摘要}{I}{chapter*.1}
+\contentsline {chapter}{Abstract}{II}{chapter*.2}
+\contentsline {chapter}{\numberline {第一章\hspace {0.3em}}绪论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}本论文研究的目的和意义}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}国内外研究现状及发展趋势}{1}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}形状记忆聚氨酯的形状记忆机理}{1}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}形状记忆聚氨酯的研究进展}{1}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}水系聚氨酯及聚氨酯整理剂}{1}{subsection.1.2.3}
+\contentsline {chapter}{结论}{3}{chapter*.4}
+\contentsline {chapter}{参考文献}{4}{chapter*.5}
+\contentsline {chapter}{\numberline {附录\nobreakspace {}A\hspace {0.3em}}***}{5}{appendix.A}
+\contentsline {chapter}{攻读学位期间发表论文与研究成果清单}{6}{appendix*.6}
+\contentsline {chapter}{致谢}{7}{appendix*.7}
+\contentsline {chapter}{作者简介}{8}{appendix*.8}
+\contentsfinish 

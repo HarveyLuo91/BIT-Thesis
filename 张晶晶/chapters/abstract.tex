@@ -1,0 +1,28 @@
+%%==================================================
+%% abstract.tex for BIT Master Thesis
+%% modified by yang yating
+%% version: 0.1
+%% last update: Dec 25th, 2016
+%%==================================================
+
+\begin{abstract}
+随着大数据时代的到来，信息技术的快速发展，流式数据的应用越来越广泛，包括智能电网、网络访问量监测、传感器网络、金融股票市场等等。在对流式数据的处理与分析中，数据压缩与异常数据检测是其中的两个重要的处理环节，也是研究的热点。本文分析了当前国内外各种数据压缩与异常数据检测的算法，针对流式数据数据量多，计算实时性要求高的问题，提出了加速算法。本文的主要研究成果如下：
+
+一、提出一种适合流式数据的改进的增量LOF算法。该方法更加适合大规模流式数据的异常数据检测，可以解决流式数据数据量太大导致的无法存储与计算的问题，减少检测数据点的计算时间。流式计算是将数据存储在内存中进行计算的，随着数据点迅速连续地产生，数据量越来越大，会造成存储困难和计算量越来越大的问题。因此，本文提出一种改进的增量LOF快速检测算法。该算法采用了将空间划分为网格的方法，将数据点映射到网格中，并进行一系列变换与处理，大大简化存储空间与计算量，从而可以有效解决需要进行计算的数据点的存储问题，同时减少每次数据记录到来后的检测时间，提高计算效率。本文介绍了网格的定义，数据点如何映射到对应的网格中，以及网格的特征向量，如何用网格来代替其中的数据记录进行计算等相关内容。并且，重新定义了LOF算法中的相关定义，使其能适应网格代替数据点的计算。通过大量的实验证明，在大量的流式数据的计算中，本文的算法的内存使用量更少，速度更快。
+
+二、对分段多项式压缩算法进行改进。改进算法可以对流式数据进行快速压缩，提高压缩速度，保证压缩处理的实时性。数据压缩最常用的是多项式拟合算法，该算法计算过程中涉及多次矩阵运算，计算时间较长。本文首先选择滑动窗口算法来进行流式数据的在线压缩，然后针对时序数据的特点，对周期采样的时序数据采用缓存的方式，减少重复计算量，加快计算时间。对非周期时间采样的时序数据，采用增量计算的思想，临时保存每次计算的中间结果，作为下一次计算的中间结果使用，减少了计算量，提高了计算效率。通过大量实验证明，本文提出的加速方法，在不同的多项式次数和不同的拟合误差下，都可以有效减少压缩时间，保证流式数据压缩计算的实时性。
+
+\keywords{流式数据； 异常数据检测； 数据压缩； 大数据分析}
+\end{abstract}
+
+\begin{englishabstract}
+
+ With the advent of the big data era and the rapid development of information technology, the application of streaming data is becoming more and more widely, including smart grid, network traffic monitoring, sensor network, financial stock market and so on. Data compression and abnormal data detection are important parts in data processing. This paper analyzes various algorithms of data compression and abnormal data detection both at home and abroad. Because of high data volume and real-time requirements, an acceleration algorithm is proposed for streaming data. The main research results of this paper are as follows:
+ 
+ (1) This paper presents an improved incremental LOF algorithm which is suitable for the detection of abnormal data in large-scale streaming data. This algorithm can solve the problem of storage and calculation which is caused by too large amount of data in streaming data, reduce the calculation time of detecting data points, and detect abnormally fast. In streaming computing, data is stored in memory. As data points are generated rapidly and continuously, the amount of data is becoming larger and larger, causing storage problems and increasing computational complexity. Therefore, this paper proposes an improved incremental LOF fast detection algorithm. The algorithm divides the space into grids, which greatly simplifies the storage space and computation, so as to effectively solve the storage problem and reduce the computation time, thus improves the efficiency. This paper gives the definition of the grid, how the data points are mapped into the corresponding grids, and the eigenvectors of the grids, and how to replace the data records in the grids with grids. Also, the concepts in the LOF algorithm are redefined so that they can use grid calculations. Through a large number of experiments, the algorithm of this paper has less memory usage and faster speed in the calculation of a large amount of streaming data.
+ 
+ (2) In this paper, we improve the segmentation polynomial compression algorithm, which can compress the streaming data rapidly, increase the compression speed and ensure the real-time performance of the compression. The most commonly used method of data compression is the polynomial fitting algorithm, which involves multiple matrix operations in computation and takes a long time to compute. We discuss the characteristics of streaming time-series data and propose a method for faster fitting and compression. Polynomial fitting is one of the most important approaches of time-series data compression, and the calculation process involves multiple matrix multiplication and inversion, which lead to high computation complexity. Due to the large number of time series instances, high performance and real-time processing of incoming data is highly demanded. Considering the characteristics of time-series data, especially for the periodically sampled time series data, this paper puts forward a polynomial fitting acceleration method. By reusing the intermediate calculation results, our approach can significantly speed up the polynomial fitting of both periodically sampled and aperiodically sampled time-series data. Experimental results show the effect of the proposed method.
+  
+\englishkeywords{streaming data;  abnormal data detection; data compression; big data analysis}
+
+\end{englishabstract}

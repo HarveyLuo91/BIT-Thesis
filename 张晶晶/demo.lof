@@ -1,0 +1,53 @@
+\hypersetup {hidelinks}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 流式数据分析与挖掘系统模型\relax }}{3}{figure.caption.6}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 基于正态分布统计方法的异常数据检测\relax }}{9}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 维数为$2$时某单元$C$及其$L_1,L_2$层示意图\relax }}{12}{figure.caption.8}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 一个二维数据集\relax }}{21}{figure.caption.9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces $k=3$时，点$q$的$k$邻域\relax }}{22}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 两种网格坐标表示\relax }}{27}{figure.caption.13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 二维网格，代表点为$\left ( x_{0},y_{0} \right )$，任意一数据点$(x,y)$\relax }}{28}{figure.caption.14}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 网格的$k$邻域的两种边界情况\relax }}{29}{figure.caption.15}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 内存使用量变化图(横坐标为运行时间，纵坐标为内存容量)\relax }}{33}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {改进的增量LOF的快速检测算法}}}{33}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {增量LOF检测算法}}}{33}{figure.caption.17}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 生产数据平均分段下两种方法的耗时情况\relax }}{38}{figure.caption.18}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 生产数据非平均分段下两种方法的耗时情况\relax }}{39}{figure.caption.19}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 人体运动数据平均分段下两种方法的耗时情况\relax }}{40}{figure.caption.20}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 非周期时间采样的时序数据所用缓存数据结构\relax }}{40}{figure.caption.21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {平均分段}}}{40}{figure.caption.21}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {非平均分段}}}{40}{figure.caption.21}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 缓存区域的数据结构\relax }}{44}{figure.caption.23}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 人工数据集RandomSet\relax }}{49}{figure.caption.24}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 在RandomSet上两种方法的异常数据检测结果\relax }}{49}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {改进的增量LOF快速检测算法}}}{49}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {增量LOF算法}}}{49}{figure.caption.25}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 在RandomSet上两种方法的运行时间对比\relax }}{50}{figure.caption.26}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {改进的增量LOF快速检测算法}}}{50}{figure.caption.26}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {增量LOF算法}}}{50}{figure.caption.26}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 在RandomSet上两种方法的运行内存变化\relax }}{50}{figure.caption.27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {改进的增量LOF快速检测算法}}}{50}{figure.caption.27}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {增量LOF算法}}}{50}{figure.caption.27}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 在KDD CUP-99数据集上两种方法的异常数据检测结果\relax }}{51}{figure.caption.28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {改进的增量LOF快速检测算法}}}{51}{figure.caption.28}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {增量LOF算法}}}{51}{figure.caption.28}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 在KDD CUP-99数据集上两种方法的运行内存变化\relax }}{51}{figure.caption.29}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {改进的增量LOF快速检测算法}}}{51}{figure.caption.29}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {增量LOF算法}}}{51}{figure.caption.29}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 周期时间采样的生产数据上的运行时间，其中$k$是多项式次数，$\varepsilon $是拟合误差\relax }}{53}{figure.caption.30}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 周期时间采样的生产数据上的加速比，其中$k$是多项式次数，$\varepsilon $是拟合误差\relax }}{53}{figure.caption.31}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces 周期时间采样的UCI气体数据上的运行时间，其中$k$是多项式次数，$\varepsilon $是拟合误差\relax }}{54}{figure.caption.32}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 周期时间采样的UCI气体数据上的加速比，其中$k$是多项式次数，$\varepsilon $是拟合误差\relax }}{54}{figure.caption.33}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces 模拟非周期时间采样的UCI气体数据上的运行时间，其中$k$是多项式次数，$\varepsilon $是拟合误差\relax }}{55}{figure.caption.34}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces 模拟非周期时间采样的UCI气体数据上的加速比，其中$k$是多项式次数，$\varepsilon $是拟合误差\relax }}{55}{figure.caption.35}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces 非周期时间采样的UCI人体移动传感器数据上的运行时间，其中$k$是多项式次数，$\varepsilon $是拟合误差\relax }}{56}{figure.caption.36}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces 非周期时间采样的UCI人体移动传感器数据集上的加速比，其中$k$是多项式次数，$\varepsilon $是拟合误差\relax }}{56}{figure.caption.37}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\contentsfinish 

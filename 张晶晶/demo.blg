@@ -1,0 +1,128 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: demo.aux
+The style file: GBT7714-2005NLang.bst
+A level-1 auxiliary file: chapters/abstract.aux
+A level-1 auxiliary file: chapters/chapter1.aux
+A level-1 auxiliary file: chapters/chapter2.aux
+A level-1 auxiliary file: chapters/chapter3.aux
+A level-1 auxiliary file: chapters/chapter4.aux
+A level-1 auxiliary file: chapters/chapter5.aux
+A level-1 auxiliary file: chapters/conclusion.aux
+A level-1 auxiliary file: chapters/pub.aux
+A level-1 auxiliary file: chapters/thanks.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: reference/chap1.bib
+Warning--I'm ignoring McKinsey2011's extra "note" field
+--line 37 of file reference/chap1.bib
+-- BUPTThesis.bst version 0.2 (2009/01/25) by Yu Zhang.
+-- http://code.google.com/p/buptthesis/
+-- See the "userguide.pdf" manual for usage information.
+Warning--empty pages in Li2012Research
+Warning--There is month but no year in McKinsey2011
+Warning--empty pages in McKinsey2011
+Warning--The author in kafka2013 is missing.
+Warning--There is month but no year in kafka2013
+Warning--empty pages in kafka2013
+Warning--The editor in Auradkar2012Data is missing.
+Warning--empty editor in Auradkar2012Data
+Warning--The editor in Chauhan2012Performance is missing.
+Warning--empty editor in Chauhan2012Performance
+Warning--The editor in Xhafa2015Processing is missing.
+Warning--empty editor in Xhafa2015Processing
+Warning--The editor in Neumeyer2011S4 is missing.
+Warning--empty editor in Neumeyer2011S4
+Warning--empty pages in Patrizio2006StreamBase
+Warning--empty pages in 于戈2006数据流分析
+Warning--empty pages in croux2018robust
+Warning--The editor in Zheng2015Detecting is missing.
+Warning--empty editor in Zheng2015Detecting
+Warning--empty pages in Rousseeuw2017Anomaly
+Warning--empty journal in Gregory1987Robust
+Warning--there's a publisher but no address in Barnett1978Outliers
+Warning--there's a school but no address in 金伟2016基于统计方法的异常数据检测及其修复
+Warning--empty journal in Zimmer2017Cluster
+Warning--empty pages in Zimmer2017Cluster
+Warning--The editor in Knorr1998Algorithms is missing.
+Warning--empty editor in Knorr1998Algorithms
+Warning--there's a publisher but no address in Bentley1975Multidimensional
+Warning--The editor in Wald2006On is missing.
+Warning--empty editor in Wald2006On
+Warning--empty journal in Hadjieleftheriou2016R
+Warning--empty pages in Hadjieleftheriou2016R
+Warning--there's a school but no address in 王斌2009面向不确定感知数据的异常数据检测技术
+Warning--empty pages in Zhao2016Density
+Warning--The editor in Liu2009Isolation is missing.
+Warning--empty editor in Liu2009Isolation
+Warning--there's a publisher but no address in Liu2012Isolation
+Warning--empty journal in Iijima1994A
+Warning--empty pages in Iijima1994A
+Warning--The editor in Wang2016A is missing.
+Warning--empty editor in Wang2016A
+Warning--The editor in Zhu2007A is missing.
+Warning--empty editor in Zhu2007A
+Warning--empty pages in Cooley1977The
+Warning--empty pages in Zhang2016An
+Warning--The editor in Bifet2009Improving is missing.
+Warning--empty editor in Bifet2009Improving
+Warning--there's a school but no address in 屠莉2009流数据的频繁项挖掘及聚类的关键技术研究
+Warning--The editor in Pokrajac2007Incremental is missing.
+Warning--empty editor in Pokrajac2007Incremental
+Warning--The editor in Roussopoulos1995Nearest is missing.
+Warning--empty editor in Roussopoulos1995Nearest
+Warning--The editor in Achtert2006Efficient is missing.
+Warning--empty editor in Achtert2006Efficient
+Warning--The author in GaitData is missing.
+Warning--There is month but no year in GaitData
+Warning--empty pages in GaitData
+Warning--The author in KDDData is missing.
+Warning--There is month but no year in KDDData
+Warning--empty pages in KDDData
+Warning--The author in gasdata is missing.
+Warning--There is month but no year in gasdata
+Warning--empty pages in gasdata
+
+Done.
+You've used 69 entries,
+            4577 wiz_defined-function locations,
+            1433 strings with 19546 characters,
+and the built_in function-call counts, 37737 in all, are:
+= -- 4289
+> -- 576
+< -- 47
++ -- 342
+- -- 169
+* -- 2982
+:= -- 4113
+add.period$ -- 199
+call.type$ -- 69
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 132
+duplicate$ -- 2489
+empty$ -- 4094
+format.name$ -- 169
+if$ -- 9354
+int.to.chr$ -- 0
+int.to.str$ -- 69
+missing$ -- 0
+newline$ -- 341
+num.names$ -- 65
+pop$ -- 299
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1160
+stack$ -- 0
+substring$ -- 4163
+swap$ -- 753
+text.length$ -- 47
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 762
+warning$ -- 63
+while$ -- 329
+width$ -- 71
+write$ -- 583
+(There were 64 warnings)
