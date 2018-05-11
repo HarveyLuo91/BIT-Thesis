@@ -11,13 +11,30 @@
 \contentsline {subsection}{\numberline {1.4.3}水系聚氨酯及聚氨酯整理剂}{5}{subsection.1.4.3}
 \contentsline {chapter}{\numberline {第2章\hspace {.3em}}相关工作}{6}{chapter.2}
 \contentsline {section}{\numberline {2.1}程序静态分析技术}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}程序动态测试技术}{8}{section.2.2}
-\contentsline {section}{\numberline {2.3}代码缺陷检测工具介绍}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}深度学习技术在软件安全领域的应用}{8}{section.2.4}
-\contentsline {chapter}{结论}{9}{chapter*.7}
-\contentsline {chapter}{参考文献}{10}{chapter*.8}
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}***}{11}{appendix.A}
-\contentsline {chapter}{攻读学位期间发表论文与研究成果清单}{12}{appendix*.9}
-\contentsline {chapter}{致谢}{13}{appendix*.10}
-\contentsline {chapter}{作者简介}{14}{appendix*.11}
+\contentsline {section}{\numberline {2.2}静态分析技术在空指针引用缺陷检测的应用}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}代码缺陷检测工具介绍}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}深度学习技术在软件安全领域的应用}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}本章小结}{12}{section.2.5}
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}总体架构}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}设计背景}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}设计思路}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}整体架构}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}组织结构}{15}{section.3.4}
+\contentsline {section}{\numberline {3.5}本章小结}{15}{section.3.5}
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}数据集的构建和预处理}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}数据集构建}{16}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}数据来源}{16}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}测试用例生成}{16}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}控制流图提取}{16}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}soot代码分析框架}{16}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}全局控制流图构建}{16}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}代码特征抽取}{16}{section.4.3}
+\contentsline {section}{\numberline {4.4}数据标注}{16}{section.4.4}
+\contentsline {section}{\numberline {4.5}本章小结}{16}{section.4.5}
+\contentsline {chapter}{结论}{17}{chapter*.10}
+\contentsline {chapter}{参考文献}{18}{chapter*.11}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}***}{19}{appendix.A}
+\contentsline {chapter}{攻读学位期间发表论文与研究成果清单}{20}{appendix*.12}
+\contentsline {chapter}{致谢}{21}{appendix*.13}
+\contentsline {chapter}{作者简介}{22}{appendix*.14}
 \contentsfinish 
