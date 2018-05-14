@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.4.24)  10 MAY 2018 00:21
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.4.24)  14 MAY 2018 02:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2909,23 +2909,26 @@ File: figures/AbstractInterpretation2-1.jpg Graphic file (type QTm)
 
 ]
 File: figures/vnfigure3-1.png Graphic file (type QTm)
- <use  "figures/vnfigure3-1.png" >) [14] [15]
+ <use  "figures/vnfigure3-1.png" > [14] [15] [16]
+File: figures/sonarqube3-2.png Graphic file (type QTm)
+
+<use  "figures/sonarqube3-2.png" >) [17] [18]
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
 第4章
-) [16
+) [19
 
 
 
 ]
 \openout2 = `chapters/conclusion.aux'.
 
- (./chapters/conclusion.tex) [17
+ (./chapters/conclusion.tex) [20
 
 
 
-] (./demo.bbl) [18
+] (./demo.bbl) [21
 
 
 ]
@@ -2933,7 +2936,7 @@ File: figures/vnfigure3-1.png Graphic file (type QTm)
 
  (./chapters/app1.tex
 附录 A
-) [19
+) [22
 
 
 ]
@@ -2948,7 +2951,7 @@ LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
 (Font)              using `TU/SimSun(0)/m/n' instead on input line 10.
 
-) [20
+) [23
 
 
 
@@ -2956,14 +2959,14 @@ LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
 ]
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex) [21
+ (./chapters/thanks.tex) [24
 
 
 
 ]
 \openout2 = `chapters/resume.aux'.
 
- (./chapters/resume.tex) [22
+ (./chapters/resume.tex) [25
 
 
 
@@ -2994,12 +2997,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 46208 strings out of 493005
- 927783 string characters out of 6137956
- 982965 words of memory out of 5000000
- 49402 multiletter control sequences out of 15000+600000
+ 46211 strings out of 493005
+ 927838 string characters out of 6137956
+ 983015 words of memory out of 5000000
+ 49404 multiletter control sequences out of 15000+600000
  547845 words of font info for 152 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,11n,70p,10416b,3396s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on demo.pdf (31 pages).
+Output written on demo.pdf (34 pages).
