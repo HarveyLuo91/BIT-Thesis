@@ -42,7 +42,7 @@
 	\end{tabular*}
 \end{table}
 
-在生成用例的抽象语法树后，只要找到合适的点位，就可以通过修改合适的操作数为Null来构造空指针引用缺陷源。通常这些点位都和赋值表达式有关，但是在过程间调用的上下文中，方法的参数和返回值都可以是合适的构造点位。可以利用的修改位置有
+在生成用例的抽象语法树后，只要找到合适的点位，就可以通过修改合适的操作数为Null来构造空指针引用缺陷源。通常这些点位都和赋值表达式有关，但是在过程间调用的上下文中，方法的参数和返回值都可以是合适的构造点位。可以利用的修改位置有：
 
 (1)类的属性成员。
 
@@ -52,16 +52,58 @@
 
 (4)方法的返回值。
 
-其中（1）中的属性成员包含被初始化的非Null的普通属性和静态属性，（1）和（2）需要找到相关的赋值表达式，通过修改
+其中（1）中的属性成员包含被初始化的非Null的普通属性和静态属性。（1）和（2）需要找到相关的赋值表达式，通过修改右操作数为Null来生成空指针引用缺陷源。（3）需要判断被调用方法的参数列表中属性的类型，将引用类型的实参修改为Null即可。（4）需要判断该方法的返回值类型，只有返回值为引用类型才可以修改。
 
+图\ref{fig:figure4-3}为测试用例构建的流程图，在抽象语法树的基础上进行修改获得缺陷源后，需要对程序进行编译并执行才能确定能否真正构建出空指针引用缺陷用例，如果没有通过编译或者运行后没有发生空指针引用缺陷，则用例构造失败，需要重新寻找新的构建点位。重复此步骤直到成功产生空指针引用缺陷。最后，成功构建的缺陷用例需要在代码中添加代码信息的注解表明该缺陷的缺陷源和发生空指针解引用的位置。运用注解的方式是为了后续代码信息抽取的工作顺利进行，Java程序可以很方便地抽取代码的注解信息，而这些自定义注解不会对代码的实际语义产生影响。记录空指针解引用的位置是为了验证工具检测的结果，加上缺陷源的位置可以很方便的确定该空指针引用缺陷发生的上下文范围，确定分析域。这些注解信息需要放置在测试用例的Main方法所在类中，方便代码信息抽取时统一处理，如果缺陷的产生位置不在Main方法所在类的方法中，就需要在注解信息中表明该缺陷产生位置所在的类。
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.25\textwidth]{figures/parse4-3}
+	\caption{测试用例构建流程}\label{fig:figure4-3}
+\end{figure}
 
+下面的代码片段就展示了一个成功生成的测试用例，在代码的第8行将“sb = new StringBuilder("")”修改为“sb = null”，随后在代码的第11行即对sb进行解引用操作，触发空指针引用缺陷。在第一行的注解标注了该缺陷涉及的上下文代码行号及变量名。这个例子非常简单，实际上产生的代码在复杂度上是满足要求的，选用的原始代码往往都具备跨方法和跨文件的调用关系。 
 
-
-
+\begin{lstlisting}[language={[AspectJ]Java},keywordstyle=\color{blue!70},commentstyle=\color{red!50!green!50!blue!50},frame=shadowbox, rulesepcolor=\color{red!20!green!20!blue!20}] 
+@Context(start = 8, end = 11, var = “sb")
+public static void main(String[] args) {
+      Scanner in = new Scanner(System.in); 
+      int k = in.nextInt();
+      if(k>36){
+           System.out.println("-1");
+      }else{
+          StringBuilder sb = null; //source                 
+          int mul = k/2;
+          while(mul-->0){
+              sb.append("8"); //npe
+          }
+          if(k%2==1){
+              sb.append("4");
+          }
+          System.out.println(sb.toString());
+      }
+}
+\end{lstlisting}
 
 \section{控制流图提取}
-\subsection{soot代码分析框架}
+控制流图（Control Flow Graph，CFG）是一个程序或者过程的抽象表现，代表了程序执行过程中所有可能经历的路径信息，能准确刻画一份代码的结构信息。空指针引用缺陷测试用例生成完毕后，需要生成代码的控制流图。
+\subsection{Soot}
+Soot【生存手册第13个引用】是一种Java字节码优化框架，凭借着对Java语言强大的分析能力，已经被广泛地应用于很多针对Java语言的分析优化项目。Soot框架最大的特点就是它提供了四种不同的代码中间表示形式：Jimple，Baf，Grimp和Shimple。同时，它还构建了数据结构来表示待分析的项目，如表所示
+\begin{table}
+	\centering
+	\caption{Soot中表示项目的数据结构} \label{tab:table4-1}
+	\begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}}cc}
+		\toprule
+		类名	&描述	 \\
+		\midrule
+		Scene	&表示整个分析环境\\
+		SootClass	&表示一个class	\\
+		SootMethod	&表示一个Method	 \\
+		SootField	&表示一个类成员属性	\\
+		Body	&表示一个方法体 \\
+		\bottomrule
+	\end{tabular*}
+\end{table}
 \subsection{全局控制流图构建}
 \section{代码特征抽取}
 \section{数据标注}
