@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.4.24)  15 MAY 2018 15:53
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.4.24)  16 MAY 2018 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2398,11 +2398,8 @@ hapter2.aux
 
 LaTeX Warning: Label `chap:intro' multiply defined.
 
-) (./chapters/chapter3.aux) (./chapters/chapter4.aux
-
-LaTeX Warning: Label `tab:table4-1' multiply defined.
-
-) (./chapters/conclusion.aux) (./chapters/app1.aux) (./chapters/pub.aux)
+) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
+(./chapters/conclusion.aux) (./chapters/app1.aux) (./chapters/pub.aux)
 (./chapters/thanks.aux) (./chapters/resume.aux))
 \openout1 = `demo.aux'.
 
@@ -2912,39 +2909,26 @@ File: figures/AbstractInterpretation2-1.jpg Graphic file (type QTm)
 
 ]
 File: figures/vnfigure3-1.png Graphic file (type QTm)
- <use  "figures/vnfigure3-1.png" > [14]
-
-! LaTeX Error: \begin{equation*} on input line 34 ended by \end{equation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 \end{equation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[15] [16]
+ <use  "figures/vnfigure3-1.png" > [14] [15] [16]
 File: figures/sonarqube3-2.png Graphic file (type QTm)
- <use  "figures/sonarqube3-2.png" > [17] [18]
+
+<use  "figures/sonarqube3-2.png" > [17] [18]
 File: figures/BITDetector3-3.png Graphic file (type QTm)
 
-<use  "figures/BITDetector3-3.png" >) [19] [20]
+<use  "figures/BITDetector3-3.png" >) [19]
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
 第4章
 File: figures/resource4-1.png Graphic file (type QTm)
-<use  "figures/resource4-1.png" > [21
+<use  "figures/resource4-1.png" > [20
 
 
 
 ]
 File: figures/ast4-2.png Graphic file (type QTm)
- <use  "figures/ast4-2.png" > [22]
-[23]
+ <use  "figures/ast4-2.png" > [21]
+[22]
 File: figures/parse4-3.png Graphic file (type QTm)
  <use  "figures/parse4-3.png" >
 (c:/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -2952,15 +2936,38 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (c:/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [24]) [25]
-[26]
+) [23]
+File: figures/Soot4-4.png Graphic file (type QTm)
+
+<use  "figures/Soot4-4.png" > [24] [25]
+File: figures/Units4-5.png Graphic file (type QTm)
+ <use  "figures/Units4-5.png" > [26]
+Overfull \hbox (1.2956pt too wide) in paragraph at lines 157--158
+[]\TU/SimSun(1)/m/n/12.045 这 里 定 义 过 程 间 调 用 图 为 \TU/TimesNewRoman(0)/m/n/12.04
+5 G\TU/SimSun(1)/m/n/12.045 ，| \TU/TimesNewRoman(0)/m/n/12.045 G \TU/SimSun(1)/
+m/n/12.045 包 含 两 个 数 据 集 合 $\OML/cmm/m/it/12.045 Caller\OT1/cmr/m/n/12.045 (\OM
+L/cmm/m/it/12.045 U; S[]\OT1/cmr/m/n/12.045 )$ \TU/SimSun(1)/m/n/12.045 和 $\OML
+/cmm/m/it/12.045 Callee\OT1/cmr/m/n/12.045 (\OML/cmm/m/it/12.045 M; S[]\OT1/cmr
+/m/n/12.045 )$\TU/TimesNewRoman(0)/m/n/12.045 ,
+ []
+
+
+Overfull \hbox (17.28839pt too wide) in paragraph at lines 198--199
+\TU/SimSun(1)/m/n/12.045 直 到 解 析 到 它 是 由 该 方 法 的 第 一 个 参 数 传 递 进 来，|  从 而 得 到 它
+ 的 类 型 为 $\OML/cmm/m/it/12.045 java:lang:String$\TU/SimSun(1)/m/n/12.045 。|
+ []
+
+[27] [28]
+File: figures/ICFG4-6.png Graphic file (type QTm)
+ <use  "figures/ICFG4-6.png" > [29] [30]) [31] [32]
 \openout2 = `chapters/conclusion.aux'.
 
- (./chapters/conclusion.tex) [27
+
+(./chapters/conclusion.tex) [33
 
 
 
-] (./demo.bbl) [28
+] (./demo.bbl) [34
 
 
 ]
@@ -2968,7 +2975,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 
  (./chapters/app1.tex
 附录 A
-) [29
+) [35
 
 
 ]
@@ -2983,7 +2990,7 @@ LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
 (Font)              using `TU/SimSun(0)/m/n' instead on input line 10.
 
-) [30
+) [36
 
 
 
@@ -2991,14 +2998,14 @@ LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
 ]
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex) [31
+ (./chapters/thanks.tex) [37
 
 
 
 ]
 \openout2 = `chapters/resume.aux'.
 
- (./chapters/resume.tex) [32
+ (./chapters/resume.tex) [38
 
 
 
@@ -3029,12 +3036,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 46413 strings out of 493005
- 932348 string characters out of 6137956
- 1040416 words of memory out of 5000000
- 49593 multiletter control sequences out of 15000+600000
+ 46448 strings out of 493005
+ 932416 string characters out of 6137956
+ 1059769 words of memory out of 5000000
+ 49625 multiletter control sequences out of 15000+600000
  547869 words of font info for 155 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,12n,70p,10416b,4346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,70p,10416b,4297s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on demo.pdf (41 pages).
+Output written on demo.pdf (47 pages).
