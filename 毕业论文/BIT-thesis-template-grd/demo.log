@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.4.24)  16 MAY 2018 20:05
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.4.24)  16 MAY 2018 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2942,6 +2942,11 @@ File: figures/Soot4-4.png Graphic file (type QTm)
 <use  "figures/Soot4-4.png" > [24] [25]
 File: figures/Units4-5.png Graphic file (type QTm)
  <use  "figures/Units4-5.png" > [26]
+
+LaTeX Warning: Reference `alg:graph4-1' on page 27 undefined on input line 157.
+
+
+
 Overfull \hbox (1.2956pt too wide) in paragraph at lines 157--158
 []\TU/SimSun(1)/m/n/12.045 这 里 定 义 过 程 间 调 用 图 为 \TU/TimesNewRoman(0)/m/n/12.04
 5 G\TU/SimSun(1)/m/n/12.045 ，| \TU/TimesNewRoman(0)/m/n/12.045 G \TU/SimSun(1)/
@@ -2957,17 +2962,20 @@ Overfull \hbox (17.28839pt too wide) in paragraph at lines 198--199
  的 类 型 为 $\OML/cmm/m/it/12.045 java:lang:String$\TU/SimSun(1)/m/n/12.045 。|
  []
 
-[27] [28]
+[27] [28] [29]
 File: figures/ICFG4-6.png Graphic file (type QTm)
- <use  "figures/ICFG4-6.png" > [29] [30]) [31] [32]
+ <use  "figures/ICFG4-6.png" > [30] [31]
+File: figures/ICFG4-7.png Graphic file (type QTm)
+
+<use  "figures/ICFG4-7.png" >) [32] [33] [34]
 \openout2 = `chapters/conclusion.aux'.
 
+ (./chapters/conclusion.tex)
+[35
 
-(./chapters/conclusion.tex) [33
 
 
-
-] (./demo.bbl) [34
+] (./demo.bbl) [36
 
 
 ]
@@ -2975,7 +2983,7 @@ File: figures/ICFG4-6.png Graphic file (type QTm)
 
  (./chapters/app1.tex
 附录 A
-) [35
+) [37
 
 
 ]
@@ -2990,7 +2998,7 @@ LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
 (Font)              using `TU/SimSun(0)/m/n' instead on input line 10.
 
-) [36
+) [38
 
 
 
@@ -2998,14 +3006,14 @@ LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
 ]
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex) [37
+ (./chapters/thanks.tex) [39
 
 
 
 ]
 \openout2 = `chapters/resume.aux'.
 
- (./chapters/resume.tex) [38
+ (./chapters/resume.tex) [40
 
 
 
@@ -3028,6 +3036,9 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  )
@@ -3036,12 +3047,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 46448 strings out of 493005
- 932416 string characters out of 6137956
- 1059769 words of memory out of 5000000
- 49625 multiletter control sequences out of 15000+600000
- 547869 words of font info for 155 fonts, out of 8000000 for 9000
+ 46458 strings out of 493005
+ 932697 string characters out of 6137956
+ 1061897 words of memory out of 5000000
+ 49632 multiletter control sequences out of 15000+600000
+ 547885 words of font info for 157 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,19n,70p,10416b,4297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,21n,70p,10416b,4297s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on demo.pdf (47 pages).
+Output written on demo.pdf (49 pages).
