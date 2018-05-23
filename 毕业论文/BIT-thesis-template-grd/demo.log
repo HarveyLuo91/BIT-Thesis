@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.15)  16 MAY 2018 22:20
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.15)  18 MAY 2018 16:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2737,11 +2737,11 @@ LaTeX Font Warning: Font shape `TU/STHeiti(0)/bx/n' undefined
 ] (./demo.toc [3
 
 
-] [4])
+])
 \tf@toc=\write5
 \openout5 = `demo.toc'.
 
- [5]
+ [4] [5]
 \openout2 = `chapters/chapter1.aux'.
 
  (./chapters/chapter1.tex
@@ -2753,56 +2753,51 @@ LaTeX Font Warning: Font shape `TU/STHeiti(0)/bx/n' undefined
 ]
 File: figures/NullPointer1-1.png Graphic file (type bmp)
 <figures/NullPointer1-1.png>
- [2] [3]
-File: figures/figure1.png Graphic file (type bmp)
-<figures/figure1.png>
-Missing character: There is no 万 in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
- [4]) [5]
+ [2] [3]) [4]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
 第2章
-[6
+[5
 
 
 
 ]
 File: figures/AbstractInterpretation2-1.jpg Graphic file (type bmp)
 <figures/AbstractInterpretation2-1.jpg>
- [7] [8] [9] [10] [11]) [12]
+ [6] [7] [8] [9] [10]) [11]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
 第3章
-[13
+[12
 
 
 
 ]
 File: figures/vnfigure3-1.png Graphic file (type bmp)
 <figures/vnfigure3-1.png>
- [14] [15] [16]
+ [13] [14] [15]
 File: figures/sonarqube3-2.png Graphic file (type bmp)
 <figures/sonarqube3-2.png>
- [17] [18]
+ [16] [17]
 File: figures/BITDetector3-3.png Graphic file (type bmp)
 <figures/BITDetector3-3.png>
-) [19]
+) [18]
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
 第4章
 File: figures/resource4-1.png Graphic file (type bmp)
 <figures/resource4-1.png>
-[20
+[19
 
 
 
 ]
 File: figures/ast4-2.png Graphic file (type bmp)
 <figures/ast4-2.png>
- [21] [22]
+ [20] [21]
 File: figures/parse4-3.png Graphic file (type bmp)
 <figures/parse4-3.png>
 
@@ -2817,13 +2812,13 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 * 
 * Font 'STFangsong' does not contain script 'CJK'.
 *************************************************
-[23]
+[22]
 File: figures/Soot4-4.png Graphic file (type bmp)
 <figures/Soot4-4.png>
- [24] [25]
+ [23] [24]
 File: figures/Units4-5.png Graphic file (type bmp)
 <figures/Units4-5.png>
- [26]
+ [25]
 Overfull \hbox (2.4455pt too wide) in paragraph at lines 157--158
 []\TU/STSong(1)/m/n/12.045 这 里 定 义 过 程 间 调 用 图 为 \TU/TimesNewRoman(0)/m/n/12.04
 5 G\TU/STSong(1)/m/n/12.045 ，| \TU/TimesNewRoman(0)/m/n/12.045 G \TU/STSong(1)/
@@ -2839,22 +2834,22 @@ Overfull \hbox (18.53014pt too wide) in paragraph at lines 198--199
  的 类 型 为 $\OML/cmm/m/it/12.045 java:lang:String$\TU/STSong(1)/m/n/12.045 。|
  []
 
-[27] [28]
+[26] [27]
 File: figures/ICFG4-6.png Graphic file (type bmp)
 <figures/ICFG4-6.png>
- [29] [30]) [31] [32]
+ [28] [29]) [30] [31]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
 第5章
-[33
+[32
 
 
 
-] [34] [35]
+] [33] [34]
 File: figures//4.pdf Graphic file (type pdf)
 <use figures//4.pdf>
- [36]
+ [35]
 File: figures//1.pdf Graphic file (type pdf)
 <use figures//1.pdf>
 
@@ -2862,7 +2857,7 @@ File: figures//1.pdf Graphic file (type pdf)
 LaTeX Warning: Command \i invalid in math mode on input line 93.
 
 Missing character: There is no ı in font cmmi8!
-[37]
+[36]
 Overfull \hbox (19.18193pt too wide) in paragraph at lines 96--97
 []\TU/STSong(1)/m/n/12.045 平 均 场 推 断 算 法 尝 试 用 一 个 独 立 的 密 度 成 分 $\OML/cmm/m/it
 /12.045 q[]\OT1/cmr/m/n/12.045 (\OML/cmm/m/it/12.045 h[]\OT1/cmr/m/n/12.045 )$ 
@@ -2872,26 +2867,26 @@ g(1)/m/n/12.045 ，|  即 $\OML/cmm/m/it/12.045 p\OT1/cmr/m/n/12.045 (\OML/cmm/m
 /12.045 H[]\OMS/cmsy/m/n/12.045 j[]\OT1/cmr/m/n/12.045 ) =
  []
 
-[38]
+[37]
 File: figures//2.pdf Graphic file (type pdf)
 <use figures//2.pdf>
 File: figures//3.pdf Graphic file (type pdf)
 <use figures//3.pdf>
- [39] [40]
+ [38] [39]
 File: figures//5.pdf Graphic file (type pdf)
 <use figures//5.pdf>
- [41]
+ [40]
 File: figures//6.pdf Graphic file (type pdf)
 <use figures//6.pdf>
- [42]) [43]
+ [41]) [42]
 \openout2 = `chapters/conclusion.aux'.
 
- (./chapters/conclusion.tex) [44
+ (./chapters/conclusion.tex) [43
 
 
 
 ] (./demo.bbl)
-[45
+[44
 
 
 ]
@@ -2899,7 +2894,7 @@ File: figures//6.pdf Graphic file (type pdf)
 
  (./chapters/app1.tex
 附录 A
-) [46
+) [45
 
 
 ]
@@ -2914,7 +2909,7 @@ LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
 LaTeX Font Warning: Font shape `TU/STSong(0)/m/sc' undefined
 (Font)              using `TU/STSong(0)/m/n' instead on input line 10.
 
-) [47
+) [46
 
 
 
@@ -2922,14 +2917,14 @@ LaTeX Font Warning: Font shape `TU/STSong(0)/m/sc' undefined
 ]
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex) [48
+ (./chapters/thanks.tex) [47
 
 
 
 ]
 \openout2 = `chapters/resume.aux'.
 
- (./chapters/resume.tex) [49
+ (./chapters/resume.tex) [48
 
 
 
@@ -2944,7 +2939,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 131.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `demo.out' has not changed.
-(rerunfilecheck)             Checksum: E8EC2330DDF699BF9304E3350306CA07.
+(rerunfilecheck)             Checksum: B040A274A6BF8AE436D6BA1F551C48F7.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2958,12 +2953,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 42778 strings out of 492970
- 891443 string characters out of 6133938
- 1031770 words of memory out of 5000000
- 46014 multiletter control sequences out of 15000+600000
+ 42758 strings out of 492970
+ 890445 string characters out of 6133938
+ 1031099 words of memory out of 5000000
+ 45995 multiletter control sequences out of 15000+600000
  547853 words of font info for 153 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,19n,69p,10414b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on demo.pdf (59 pages).
+Output written on demo.pdf (58 pages).
