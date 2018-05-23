@@ -117,4 +117,60 @@ In Proceedings of the 31st International Conference on Software Engineering,
 空指针异常的自动故障定位方法~[J].
 通信学报, 2017, 36~(1):  18--29.
 
+\bibitem{white2016deep}
+White~M, Tufano~M, Vendome~C, et~al.
+Deep learning code fragments for code clone detection~[C].
+In Proceedings of the 31st IEEE/ACM International Conference on Automated
+  Software Engineering, 2016:  87--98.
+
+\bibitem{dai2016discriminative}
+Dai~H, Dai~B, Song~L.
+Discriminative embeddings of latent variable models for structured data~[C].
+In International Conference on Machine Learning, 2016:  2702--2711.
+
+\bibitem{DBLP:journals/corr/abs-1708-06525}
+Xu~X, Liu~C, Feng~Q, et~al.
+Neural Network-based Graph Embedding for Cross-Platform Binary Code Similarity
+  Detection~[J/OL].
+CoRR, 2017, abs/1708.06525.
+\url{http://arxiv.org/abs/1708.06525}.
+
+\bibitem{leslie2001spectrum}
+Leslie~C, Eskin~E, Noble~W~S.
+The spectrum kernel: A string kernel for SVM protein
+  classification~[M]~//~Leslie~C, Eskin~E, Noble~W~S.
+ Biocomputing 2002.
+World Scientific, 2001: 2001: 564--575.
+
+\bibitem{shervashidze2009efficient}
+Shervashidze~N, Vishwanathan~S, Petri~T, et~al.
+Efficient graphlet kernels for large graph comparison~[C].
+In Artificial Intelligence and Statistics, 2009:  488--495.
+
+\bibitem{jaakkola1999using}
+Jaakkola~T~S, Diekhans~M, Haussler~D.
+Using the Fisher kernel method to detect remote protein homologies.~[C].
+In ISMB, 1999:  149--158.
+
+\bibitem{smola2007hilbert}
+Smola~A, Gretton~A, Song~L, et~al.
+A Hilbert space embedding for distributions~[C].
+In International Conference on Algorithmic Learning Theory, 2007:  13--31.
+
+\bibitem{wainwright2008graphical}
+Wainwright~M~J, Jordan~M~I, et~al.
+Graphical models, exponential families, and variational inference~[J].
+Foundations and Trends{\textregistered} in Machine Learning, 2008, 1~(1--2):
+  1--305.
+
+\bibitem{kohonen1988introduction}
+Kohonen~T.
+An introduction to neural computing~[J].
+Neural networks, 1988, 1~(1):  3--16.
+
+\bibitem{mcculloch1943logical}
+McCulloch~W~S, Pitts~W.
+A logical calculus of the ideas immanent in nervous activity~[J].
+The bulletin of mathematical biophysics, 1943, 5~(4):  115--133.
+
 \end{thebibliography}

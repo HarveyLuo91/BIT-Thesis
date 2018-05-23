@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.15)  18 MAY 2018 16:21
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.15)  23 MAY 2018 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2268,8 +2268,7 @@ LaTeX Warning: Label `default' multiply defined.
 
 LaTeX Warning: Label `default' multiply defined.
 
-) (./chapters/conclusion.aux) (./chapters/app1.aux) (./chapters/pub.aux)
-(./chapters/thanks.aux) (./chapters/resume.aux))
+) (./chapters/conclusion.aux) (./chapters/pub.aux) (./chapters/thanks.aux))
 \openout1 = `demo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -2731,17 +2730,17 @@ LaTeX Font Warning: Font shape `TU/STHeiti(0)/bx/n' undefined
 
 
 
-]) [2
+] [2
 
 
-] (./demo.toc [3
+]) [3] (./demo.toc [4
 
 
 ])
 \tf@toc=\write5
 \openout5 = `demo.toc'.
 
- [4] [5]
+ [5]
 \openout2 = `chapters/chapter1.aux'.
 
  (./chapters/chapter1.tex
@@ -2753,51 +2752,51 @@ LaTeX Font Warning: Font shape `TU/STHeiti(0)/bx/n' undefined
 ]
 File: figures/NullPointer1-1.png Graphic file (type bmp)
 <figures/NullPointer1-1.png>
- [2] [3]) [4]
+ [2] [3] [4]) [5]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
 第2章
-[5
+[6
 
 
 
 ]
 File: figures/AbstractInterpretation2-1.jpg Graphic file (type bmp)
 <figures/AbstractInterpretation2-1.jpg>
- [6] [7] [8] [9] [10]) [11]
+ [7] [8] [9] [10] [11]) [12]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
 第3章
-[12
+[13
 
 
 
 ]
 File: figures/vnfigure3-1.png Graphic file (type bmp)
 <figures/vnfigure3-1.png>
- [13] [14] [15]
+ [14] [15] [16]
 File: figures/sonarqube3-2.png Graphic file (type bmp)
 <figures/sonarqube3-2.png>
- [16] [17]
+ [17] [18]
 File: figures/BITDetector3-3.png Graphic file (type bmp)
 <figures/BITDetector3-3.png>
-) [18]
+) [19]
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
 第4章
 File: figures/resource4-1.png Graphic file (type bmp)
 <figures/resource4-1.png>
-[19
+[20
 
 
 
 ]
 File: figures/ast4-2.png Graphic file (type bmp)
 <figures/ast4-2.png>
- [20] [21]
+ [21] [22]
 File: figures/parse4-3.png Graphic file (type bmp)
 <figures/parse4-3.png>
 
@@ -2812,13 +2811,18 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 * 
 * Font 'STFangsong' does not contain script 'CJK'.
 *************************************************
-[22]
+[23]
 File: figures/Soot4-4.png Graphic file (type bmp)
 <figures/Soot4-4.png>
- [23] [24]
+ [24] [25]
 File: figures/Units4-5.png Graphic file (type bmp)
 <figures/Units4-5.png>
- [25]
+ [26]
+
+LaTeX Warning: Reference `alg:graph4-1' on page 27 undefined on input line 157.
+
+
+
 Overfull \hbox (2.4455pt too wide) in paragraph at lines 157--158
 []\TU/STSong(1)/m/n/12.045 这 里 定 义 过 程 间 调 用 图 为 \TU/TimesNewRoman(0)/m/n/12.04
 5 G\TU/STSong(1)/m/n/12.045 ，| \TU/TimesNewRoman(0)/m/n/12.045 G \TU/STSong(1)/
@@ -2834,31 +2838,34 @@ Overfull \hbox (18.53014pt too wide) in paragraph at lines 198--199
  的 类 型 为 $\OML/cmm/m/it/12.045 java:lang:String$\TU/STSong(1)/m/n/12.045 。|
  []
 
-[26] [27]
+[27] [28]
 File: figures/ICFG4-6.png Graphic file (type bmp)
 <figures/ICFG4-6.png>
- [28] [29]) [30] [31]
+ [29] [30] [31]
+File: figures/ICFG4-7.png Graphic file (type bmp)
+<figures/ICFG4-7.png>
+ [32] [33]) [34] [35]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
 第5章
-[32
+[36
 
 
 
-] [33] [34]
+] [37] [38]
 File: figures//4.pdf Graphic file (type pdf)
 <use figures//4.pdf>
- [35]
+ [39]
 File: figures//1.pdf Graphic file (type pdf)
 <use figures//1.pdf>
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 93.
+LaTeX Warning: Command \i invalid in math mode on input line 92.
 
 Missing character: There is no ı in font cmmi8!
-[36]
-Overfull \hbox (19.18193pt too wide) in paragraph at lines 96--97
+[40]
+Overfull \hbox (19.18193pt too wide) in paragraph at lines 95--96
 []\TU/STSong(1)/m/n/12.045 平 均 场 推 断 算 法 尝 试 用 一 个 独 立 的 密 度 成 分 $\OML/cmm/m/it
 /12.045 q[]\OT1/cmr/m/n/12.045 (\OML/cmm/m/it/12.045 h[]\OT1/cmr/m/n/12.045 )$ 
 \TU/STSong(1)/m/n/12.045 来 近 似 估 计 $\OML/cmm/m/it/12.045 p\OT1/cmr/m/n/12.045 (
@@ -2867,37 +2874,33 @@ g(1)/m/n/12.045 ，|  即 $\OML/cmm/m/it/12.045 p\OT1/cmr/m/n/12.045 (\OML/cmm/m
 /12.045 H[]\OMS/cmsy/m/n/12.045 j[]\OT1/cmr/m/n/12.045 ) =
  []
 
-[37]
+[41]
 File: figures//2.pdf Graphic file (type pdf)
 <use figures//2.pdf>
 File: figures//3.pdf Graphic file (type pdf)
 <use figures//3.pdf>
- [38] [39]
+ [42] [43]
 File: figures//5.pdf Graphic file (type pdf)
 <use figures//5.pdf>
- [40]
+ [44]
 File: figures//6.pdf Graphic file (type pdf)
 <use figures//6.pdf>
- [41]) [42]
+ [45]) [46]
 \openout2 = `chapters/conclusion.aux'.
 
- (./chapters/conclusion.tex) [43
+ (./chapters/conclusion.tex) [47
 
 
 
-] (./demo.bbl)
-[44
+] (./demo.bbl
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 46.
+
+[48
 
 
-]
-\openout2 = `chapters/app1.aux'.
-
- (./chapters/app1.tex
-附录 A
-) [45
-
-
-]
+]) [49]
 \openout2 = `chapters/pub.aux'.
 
  (./chapters/pub.tex
@@ -2909,37 +2912,28 @@ LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
 LaTeX Font Warning: Font shape `TU/STSong(0)/m/sc' undefined
 (Font)              using `TU/STSong(0)/m/n' instead on input line 10.
 
-) [46
-
+) [50
 
 
 
 ]
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex) [47
-
-
-
-]
-\openout2 = `chapters/resume.aux'.
-
- (./chapters/resume.tex) [48
+ (./chapters/thanks.tex) [51
 
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
- (./demo.aux
-(./chapters/abstract.aux) (./chapters/chapter1.aux) (./chapters/chapter2.aux)
-(./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux)
-(./chapters/conclusion.aux) (./chapters/app1.aux) (./chapters/pub.aux)
-(./chapters/thanks.aux) (./chapters/resume.aux))
+ (./demo.aux (./chapters/abstract.aux)
+(./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
+(./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/conclusion.aux)
+(./chapters/pub.aux) (./chapters/thanks.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 131.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `demo.out' has not changed.
-(rerunfilecheck)             Checksum: B040A274A6BF8AE436D6BA1F551C48F7.
+(rerunfilecheck)             Checksum: 3B6B914304638B57A18627F63270027D.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2949,16 +2943,19 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 42758 strings out of 492970
- 890445 string characters out of 6133938
- 1031099 words of memory out of 5000000
- 45995 multiletter control sequences out of 15000+600000
- 547853 words of font info for 153 fonts, out of 8000000 for 9000
+ 42901 strings out of 492970
+ 894622 string characters out of 6133938
+ 1033025 words of memory out of 5000000
+ 46137 multiletter control sequences out of 15000+600000
+ 552865 words of font info for 182 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,19n,69p,10414b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,21n,69p,10414b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on demo.pdf (58 pages).
+Output written on demo.pdf (61 pages).
