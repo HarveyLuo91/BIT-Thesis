@@ -108,7 +108,7 @@ Soot【生存手册第13个引用】是一种Java字节码优化框架，凭借�
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.70\textwidth]{figures/Soot4-4}
+	\includegraphics[width=0.50\textwidth]{figures/Soot4-4}
 	\caption{Soot工作流程}\label{fig:figure4-4}
 \end{figure}
 
@@ -157,8 +157,8 @@ label0: // createdbyPrinter
 这里定义过程间调用图为G，G包含两个数据集合$Caller(U,S_m)$和$Callee(M,S_u)$,前者表示Unit结点与其调用的Method集合的映射关系，后者表示Method与调用它的Unit结点集合的映射关系。由于Unit和Method在Soot分析环境中具有唯一性，并且Unit和Method还包含了其结构的上下文关系信息，即利用Unit可以得到其所属的Method信息，甚至Class信息，所以不需要构建Method与Method之间的调用关系。利用这两个数据集合可以方便地找出某个Unit调用的Method集合$S_m$以及调用Method的Unit集合$S_u$。在Soot开始加载待分析工程时，会将工程中的所有Class转换为Soot自定义的SootClass，同时按照表\ref{tab:table4-2}的对应关系，将每个Class中包含的子结构逐一封装成Soot中的相应类型对象。在Soot加载完毕后，逐一遍历Scene下所有的SootClass，并分析其中的Jimple代码，在遇到调用语句解析其调用对象，即可构建$Caller(U,S_m)$和$Callee(M,S_u)$数据集合。具体构建过程如算法\ref{alg:graph4-1}描述。
 
 \begin{algorithm}%
+	\LinesNumbered
 	\KwIn{Soot加载的Class集合$S_c$}
-	
 	\KwOut{过程间调用图G}
 	$Caller \leftarrow \emptyset$ \\
 	$Callee \leftarrow \emptyset$ \\
@@ -192,7 +192,7 @@ label0: // createdbyPrinter
 	$G \leftarrow \{\{Caller\},\{Callee\}\}$ \\
 	\Return G
 	\caption{过程间调用图构建算法}
-	\label{alg:graph4-1}
+	\label{alg:alg4-1}
 \end{algorithm}
 
 以本节上面给出的代码片段为例，在对$foo$方法的$Units$进行遍历时,在第6行遇到方法调用语句，可以得到其调用类型为$virtualinvoke$。然后从该$unit$中解析出被调用的对象$r1$，这里无法得到$r1$的类型，需要对$r1$进行逆向分析，即$backAnalysis$方法，直到解析到它是由该方法的第一个参数传递进来，从而得到它的类型为$java.lang.String$。然后调用$getMethod(className,methodName,invokeType)$方法，该方法传入的参数分别为$r1$的类型的名称，被调用方法名字及调用方式，$getMethod$方法可以获得被调用方法在Soot环境下的实例。然后将$unit$和$Method$实例的映射信息加入到$Caller$和$Callee$这两个数据结构中。
@@ -286,7 +286,7 @@ Unit表示抽象的语句类型，实际上它包含了15种具体的Stmt语句�
 
 3.调用语句类型
 
-调用语句表明该程序涉及到了跨过程的分析，在Jimple包含的Stmt中，实现InvokeStmt接口的类有五种，它们表示五种调用方法的类型，它们的编码\ref{tab:table4-4}如表所示，如果该结点不包含方法调用语句，标记为0。
+调用语句表明该程序涉及到了跨过程的分析，在Jimple包含的Stmt中，实现InvokeStmt接口的类有五种，它们表示五种调用方法的类型，它们的编码如表\ref{tab:table4-4}所示，如果该结点不包含方法调用语句，标记为0。
 
 \begin{table}[hb]
 	\centering
@@ -330,10 +330,86 @@ Unit表示抽象的语句类型，实际上它包含了15种具体的Stmt语句�
 
 空指针检查可以很好的避免下文中对空指针的引用，该语句通常会影响到工具检测结果的判定。如果该结点对Null值进行了检查，标记为1，否则为0;
 
-通过六个维度的特征抽取，不仅可以体现全局控制流图的结构特征，而且可以体现图中每个结点即Jimple指令的语义特征。但是Java代码在转换为Jimple中间表示的过程中，为了使得到的语法单位都是标准的三地址表达式，将Java基本语句进行了大量的拆解重组，使得Jimple的基本语句的粒度比Java基本语句的粒度要小很多，这就使得生成的全局控制流图所能体现的特征更加不明显。为了让在模型训练的过程中更加容易的对代码分类，需要将生成的全局控制流图进一步压缩，使得图中每个结点接近基本块的维度。
+通过六个维度的特征抽取，不仅可以体现全局控制流图的结构特征，而且可以体现图中每个结点即Jimple指令的语义特征。但是Java代码在转换为Jimple中间表示的过程中，为了使得到的语法单位都是标准的三地址表达式，将Java基本语句进行了大量的拆解重组，使得Jimple的基本语句的粒度比Java基本语句的粒度要小很多，这就使得生成的全局控制流图所能体现的特征更加不明显。为了让在模型训练的过程中更加容易的对代码分类，需要将生成的全局控制流图进一步压缩，使得图中每个结点接近基本块的维度。具体操作如算法\ref{alg:alg4-2}。
+
+\begin{algorithm}%
+	\LinesNumbered
+	\KwIn{控制流图$G_c$}
+	\KwOut{压缩后的控制流图$G_c'$}
+	workList $\leftarrow \emptyset$  \\
+	workList $\leftarrow \{G_c.RootNode\}$  \\
+	\While{$worklist \neq \emptyset$}{
+		node $\leftarrow$ workList.next \\
+		remove node from workList \\
+		node set visited \\
+		\If{size of node.succList = 0}{
+			node set visited \\
+			continue \\
+		}\ElseIf{size of node.succList = 1}{
+			$tmpNode \leftarrow node$ \\
+			\While{size of node.succList = 1}{
+				$succNode \leftarrow node.succlist[0]$ \\
+				\If{size of succNode.succList > 1 OR size of succNode.precList > 1}{
+					break \\
+				}
+				mergeAttribute(tmpNode) \\
+				$tmpNode \leftarrow succNode$ \\
+				tmpNode set visited \\
+			}
+			$node.succList \leftarrow tmpNode.succList$ \\
+			insert node into $G_c'$ \\
+			\ForEach{succNode in node.succList}{
+				\If{succNode is not visited}{
+					insert succNode into workList \\
+				}	
+			}
+		}\Else{
+			\ForEach{succNode in node.succList}{
+				\If{succNode is not visited}{
+					insert succNode into workList \\
+				}	
+			}
+		}
+		insert node into $G_c'$ \\
+	}
+	\Return $G_c'$
+	\caption{控制流图压缩算法}
+	\label{alg:alg4-2}
+\end{algorithm}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.70\textwidth]{figures/ICFG4-7}
+	\caption{全局控制流图压缩示例}\label{fig:figure4-7}
+\end{figure}
 
 
+经过此算法处理，图\ref{fig:figure4-6}生成的全局控制流图将被进一步压缩，如图\ref{fig:figure4-7}所示。此算法将图中的串行结点，即前驱和后继结点数量均为1的结点合并为1个结点。同时，在算法的第16行进行了$mergeAttribute$的操作，这个操作可以将多个结点的特征属性转换到压缩后的一个结点上。具体转换方法如表\ref{tab:table4-6}所示,压缩后的图中结点的特征由压缩前多个结点的特征综合得到。
 
+\begin{table}[hb]
+	\centering
+	\caption{控制流图压缩后的结点特征转换} \label{tab:table4-6}
+	\begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}}cc}
+		\toprule
+		压缩前特征值	&压缩后特征值	 \\
+		\midrule
+		前驱结点数量 & 压缩后结点的前驱结点数量	\\
+		语句类型 & 被压缩结点中出现的语句类型的种类数量	 \\
+		调用语句类型 & 被压缩结点中出现调用语句的数量 \\
+		使用的操作数数量 & 被压缩结点中使用的操作数数量之和 \\
+		调用语句类型 & 被压缩结点中调用语句的数量之和 \\
+		调用语句类型 & 被压缩结点中调用语句的数量之和 \\
+		\bottomrule
+	\end{tabular*}
+\end{table}
 
 \section{数据标注}
+前文已经提到，本文训练模型的目的是为了评估工具的对某种缺陷检测的能力，因此本文训练数据的标签应该体现工具检测相应缺陷的能力，该能力记为置信度$V(T,C,L)$，其中$T$表示工具类型,$C$表示测试用例,$L$表示测试用例中的某个具体位置，如果$V(T,C,L)=1$，表示工具$T$在用例$C$的位置$L$处的检测结果是可信的，如果$V(T,C,L)=-1$，则表示工具$T$在用例$C$的位置$L$处的检测结果不可信。
+
+在本章第一节构建的数据集中包含两类用例，，一部分用例中包含缺陷，另一部分则为代码结构与其相似但无缺陷的用例，这些用例构建完成后会添加记录缺陷位置的注解，利用注解可以构建数据集的缺陷信息库。当测试用例$C$在位置$L$处存在空指针引用缺陷时，记为$D(C,L)=1$，无缺陷时记为$D(C,L)=0$。
+
+分别使用每种工具对目标用例进行检测，并记录测试结果。如果工具$T$在测试用例$C$的位置$L$处检测出空指针引用缺陷，记为$E(T,C,L)=1$，如果在该位置没有检测出空指针引用缺陷，则记为$E(T,C,L)=0$。然后将工具检测的结果与缺陷信息库的结果进行比对，如果工具检出的空指针引用缺陷信息与缺陷信息库中相应的缺陷信息一致，，即$E(T,C,L)=D(C,L)$，则表示测试工具具备对该缺陷的检测能力，可得置信度为$V(T,C,L)=1$，否则表示测试工具不具备对该缺陷的检测能力，可得置信度$V(T,C,L)=-1$。
+
 \section{本章小结}
+
+本章介绍了训练评估工具能力模型需要的数据集的来源和生成方式，以及测试用例的控制流图构建和代码特征提取，其中还介绍了利用压缩图的方式来提高特征的辨识度从而提升训练效率的方式。最后介绍数据的标签的含义，表明了模型预测工具置信度的目的。
