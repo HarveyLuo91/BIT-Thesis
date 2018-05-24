@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.15)  24 MAY 2018 22:08
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.15)  24 MAY 2018 22:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2330,11 +2330,8 @@ Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
 
 LaTeX Warning: Label `chap:intro' multiply defined.
 
-) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux
-
-LaTeX Warning: Label `default' multiply defined.
-
-) (./chapters/chapter6.aux) (./chapters/conclusion.aux) (./chapters/pub.aux)
+) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux)
+(./chapters/chapter6.aux) (./chapters/conclusion.aux) (./chapters/pub.aux)
 (./chapters/thanks.aux))
 \openout1 = `demo.aux'.
 
@@ -3099,10 +3096,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 43798 strings out of 492970
- 902068 string characters out of 6133938
- 1062976 words of memory out of 5000000
- 46961 multiletter control sequences out of 15000+600000
+ 43799 strings out of 492970
+ 902081 string characters out of 6133938
+ 1063020 words of memory out of 5000000
+ 46962 multiletter control sequences out of 15000+600000
  552865 words of font info for 182 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,21n,69p,10414b,1636s stack positions out of 5000i,500n,10000p,200000b,80000s
