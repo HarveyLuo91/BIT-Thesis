@@ -62,6 +62,50 @@ Lin~Z, Qing-kai~Z.
 Static detecting techniques of software security flaws~[J].
 Computer Engineering, 2008, 34~(12):  157--159.
 
+\bibitem{king1976symbolic}
+King~J~C.
+Symbolic execution and program testing~[J].
+Communications of the ACM, 1976, 19~(7):  385--394.
+
+\bibitem{bush2000static}
+Bush~W~R, Pincus~J~D, Sielaff~D~J.
+A static analyzer for finding dynamic programming errors~[J].
+Software-Practice and Experience, 2000, 30~(7):  775--802.
+
+\bibitem{jhala2009software}
+Jhala~R, Majumdar~R.
+Software model checking~[J].
+ACM Computing Surveys (CSUR), 2009, 41~(4): ~21.
+
+\bibitem{ball2001automatically}
+Ball~T, Rajamani~S~K.
+Automatically validating temporal safety properties of interfaces~[C].
+In Proceedings of the 8th international SPIN workshop on Model checking of
+  software, 2001:  103--122.
+
+\bibitem{tiwari2007logical}
+Tiwari~A, Gulwani~S.
+Logical interpretation: Static program analysis using theorem proving~[C].
+In International Conference on Automated Deduction, 2007:  147--166.
+
+\bibitem{flanagan2013pldi}
+Flanagan~C, Leino~K R~M, Lillibridge~M, et~al.
+PLDI 2002: Extended static checking for Java~[J].
+ACM Sigplan Notices, 2013, 48~(4S):  22--33.
+
+\bibitem{cousot1977abstract}
+Cousot~P, Cousot~R.
+Abstract interpretation: a unified lattice model for static analysis of
+  programs by construction or approximation of fixpoints~[C].
+In Proceedings of the 4th ACM SIGACT-SIGPLAN symposium on Principles of
+  programming languages, 1977:  238--252.
+
+\bibitem{madhavan2011null}
+Madhavan~R, Komondoor~R.
+Null dereference verification via over-approximated weakest pre-conditions
+  analysis~[J].
+ACM Sigplan Notices, 2011, 46~(10):  1033--1052.
+
 \bibitem{xie2007saturn}
 Xie~Y, Aiken~A.
 Saturn: A scalable framework for error detection using boolean
@@ -85,21 +129,9 @@ Verifying dereference safety via expanding-scope analysis~[C].
 In Proceedings of the 2008 international symposium on Software testing and
   analysis, 2008:  213--224.
 
-\bibitem{madhavan2011null}
-Madhavan~R, Komondoor~R.
-Null dereference verification via over-approximated weakest pre-conditions
-  analysis~[J].
-ACM Sigplan Notices, 2011, 46~(10):  1033--1052.
-
 \bibitem{wala}
 Wala.
 \url{http://wala.sourceforge.net}.
-
-\bibitem{hovemeyer2007finding}
-Hovemeyer~D, Pugh~W.
-Finding more null pointer bugs, but not too many~[C].
-In Proceedings of the 7th ACM SIGPLAN-SIGSOFT workshop on Program analysis for
-  software tools and engineering, 2007:  9--14.
 
 \bibitem{nanda2009accurate}
 Nanda~M~G, Sinha~S.
@@ -116,5 +148,30 @@ In Proceedings of the 31st International Conference on Software Engineering,
 姜淑娟, 王兴亚, 张艳梅, et~al.
 空指针异常的自动故障定位方法~[J].
 通信学报, 2017, 36~(1):  18--29.
+
+\bibitem{hovemeyer2007finding}
+Hovemeyer~D, Pugh~W.
+Finding more null pointer bugs, but not too many~[C].
+In Proceedings of the 7th ACM SIGPLAN-SIGSOFT workshop on Program analysis for
+  software tools and engineering, 2007:  9--14.
+
+\bibitem{rutar2004comparison}
+Rutar~N, Almazan~C~B, Foster~J~S.
+A comparison of bug finding tools for Java~[C].
+In Software Reliability Engineering, 2004. ISSRE 2004. 15th International
+  Symposium on, 2004:  245--256.
+
+\bibitem{owasp}
+Owasp.
+\url{https://www.owasp.org/index.php/Main_Page}.
+
+\bibitem{nist}
+NIST.
+\url{https://www.nist.gov/}.
+
+\bibitem{vallee2010soot}
+Vall{\'e}e-Rai~R, Co~P, Gagnon~E, et~al.
+Soot: A Java bytecode optimization framework~[C].
+In CASCON First Decade High Impact Papers, 2010:  214--224.
 
 \end{thebibliography}
