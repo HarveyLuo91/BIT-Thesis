@@ -22,21 +22,23 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces 图数据隐变量建模\relax }}{42}{figure.caption.28}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces M-P神经元模型\relax }}{44}{figure.caption.29}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces 常用激活函数\relax }}{44}{figure.caption.30}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 图特征抽取模型图示\relax }}{46}{figure.caption.31}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 图特征抽取模型图示\relax }}{45}{figure.caption.31}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces 完整分类模型图示\relax }}{47}{figure.caption.33}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 欠采样方法示例\relax }}{50}{figure.caption.35}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces 过采样方法示例\relax }}{50}{figure.caption.35}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces 不同组合的准确率\relax }}{51}{figure.caption.36}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces FindBugs\relax }}{52}{figure.caption.37}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Infer\relax }}{52}{figure.caption.37}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Jlint\relax }}{52}{figure.caption.37}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Fortify\relax }}{52}{figure.caption.37}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces FindBugs\relax }}{53}{figure.caption.38}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Infer\relax }}{53}{figure.caption.38}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Jlint\relax }}{53}{figure.caption.38}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Fortify\relax }}{53}{figure.caption.38}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces 不同阈值下的空指针检测准确率\relax }}{54}{figure.caption.39}
-\addvspace {10.0pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 两种采样方法示例\relax }}{49}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {欠采样方法示例}}}{49}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {过采样方法示例}}}{49}{figure.caption.34}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 迭代次数和特征维度对模型训练的影响\relax }}{50}{figure.caption.35}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 四种工具的二分类模型的分类效果\relax }}{51}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Findbugs}}}{51}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Infer}}}{51}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Jlint}}}{51}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Fortify}}}{51}{figure.caption.36}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 四种工具的二分类模型的ROC曲线\relax }}{52}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Findbugs}}}{52}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Infer}}}{52}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Jlint}}}{52}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Fortify}}}{52}{figure.caption.37}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces 不同阈值下的缺陷判定准确率\relax }}{53}{figure.caption.38}
 \addvspace {10.0pt}
 \contentsfinish 

@@ -35,18 +35,19 @@
 \contentsline {section}{\numberline {5.2}图结构数据的建模}{40}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}马尔可夫随机场}{40}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}图结构数据的建模方法}{41}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}图结构数据模型的求解}{41}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.3}图结构数据模型的求解}{42}{subsection.5.2.3}
 \contentsline {section}{\numberline {5.3}分类模型的构建}{43}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}神经网络}{43}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}图结构特征抽取模型构建}{45}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}判别模型的构建}{45}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}本章小结}{48}{section.5.4}
-\contentsline {chapter}{\numberline {第6章\hspace {.3em}}实验评估}{49}{chapter.6}
-\contentsline {section}{\numberline {6.1}实验设置}{49}{section.6.1}
-\contentsline {section}{\numberline {6.2}训练设置}{50}{section.6.2}
-\contentsline {section}{\numberline {6.3}实验结果}{51}{section.6.3}
-\contentsline {chapter}{结论}{55}{chapter*.40}
-\contentsline {chapter}{参考文献}{57}{chapter*.41}
-\contentsline {chapter}{攻读学位期间发表论文与研究成果清单}{60}{appendix*.42}
-\contentsline {chapter}{致谢}{61}{appendix*.43}
+\contentsline {subsection}{\numberline {5.3.3}判别模型的构建}{46}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}本章小结}{47}{section.5.4}
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}实验评估}{48}{chapter.6}
+\contentsline {section}{\numberline {6.1}实验环境}{48}{section.6.1}
+\contentsline {section}{\numberline {6.2}数据选择}{48}{section.6.2}
+\contentsline {section}{\numberline {6.3}训练优化实验}{49}{section.6.3}
+\contentsline {section}{\numberline {6.4}模型检测实验}{50}{section.6.4}
+\contentsline {section}{\numberline {6.5}本章小结}{53}{section.6.5}
+\contentsline {chapter}{结论}{54}{chapter*.40}
+\contentsline {chapter}{参考文献}{56}{chapter*.41}
+\contentsline {chapter}{攻读学位期间发表论文与研究成果清单}{59}{appendix*.42}
 \contentsfinish 
