@@ -41,8 +41,11 @@
 \contentsline {subsection}{\numberline {5.3.2}图结构特征抽取模型构建}{44}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}判别模型的构建}{45}{subsection.5.3.3}
 \contentsline {section}{\numberline {5.4}本章小结}{46}{section.5.4}
-\contentsline {chapter}{结论}{47}{chapter*.32}
-\contentsline {chapter}{参考文献}{48}{chapter*.33}
-\contentsline {chapter}{攻读学位期间发表论文与研究成果清单}{50}{appendix*.34}
-\contentsline {chapter}{致谢}{51}{appendix*.35}
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}实验评估}{47}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}实验设置}{47}{subsection.6.0.1}
+\contentsline {subsection}{\numberline {6.0.2}训练设置}{48}{subsection.6.0.2}
+\contentsline {chapter}{结论}{49}{chapter*.34}
+\contentsline {chapter}{参考文献}{50}{chapter*.35}
+\contentsline {chapter}{攻读学位期间发表论文与研究成果清单}{52}{appendix*.36}
+\contentsline {chapter}{致谢}{53}{appendix*.37}
 \contentsfinish 
