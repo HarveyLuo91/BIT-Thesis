@@ -14,7 +14,7 @@ A level-1 auxiliary file: chapters/thanks.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: reference/luohui.bib
-I was expecting a `,' or a `}'---line 251 of file reference/luohui.bib
+I was expecting a `,' or a `}'---line 477 of file reference/luohui.bib
  :   
  :   publisher ="机械工业出版社"
 (Error may have been on previous line)
@@ -54,6 +54,12 @@ Warning--empty editor in nanda2009accurate
 Warning--there's a school but no address in yangrui2012
 Warning--The editor in hovemeyer2007finding is missing.
 Warning--empty editor in hovemeyer2007finding
+Warning--The editor in white2016deep is missing.
+Warning--empty editor in white2016deep
+Warning--The editor in dai2016discriminative is missing.
+Warning--empty editor in dai2016discriminative
+Warning--empty pages in DBLP:journals/corr/abs-1708-06525
+Warning--The refdate in DBLP:journals/corr/abs-1708-06525 is missing.
 Warning--The editor in rutar2004comparison is missing.
 Warning--empty editor in rutar2004comparison
 Warning--The author in owasp is missing.
@@ -64,47 +70,56 @@ Warning--There is month but no year in nist
 Warning--empty pages in nist
 Warning--The editor in vallee2010soot is missing.
 Warning--empty editor in vallee2010soot
+`editor' is a missing field, not a string, for entry leslie2001spectrum
+while executing---line 5079 of file GBT7714-2005NLang.bst
+Warning--there's a publisher but no address in leslie2001spectrum
+Warning--The editor in shervashidze2009efficient is missing.
+Warning--empty editor in shervashidze2009efficient
+Warning--The editor in jaakkola1999using is missing.
+Warning--empty editor in jaakkola1999using
+Warning--The editor in smola2007hilbert is missing.
+Warning--empty editor in smola2007hilbert
 
 Done.
-You've used 33 entries,
+You've used 43 entries,
             4577 wiz_defined-function locations,
-            1200 strings with 12344 characters,
-and the built_in function-call counts, 16200 in all, are:
-= -- 1867
-> -- 234
-< -- 23
-+ -- 138
-- -- 67
-* -- 1297
-:= -- 1758
-add.period$ -- 95
-call.type$ -- 33
+            1260 strings with 14315 characters,
+and the built_in function-call counts, 23126 in all, are:
+= -- 2649
+> -- 346
+< -- 32
++ -- 205
+- -- 101
+* -- 1873
+:= -- 2539
+add.period$ -- 127
+call.type$ -- 43
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 71
-duplicate$ -- 1035
-empty$ -- 1745
-format.name$ -- 67
-if$ -- 3989
+cite$ -- 94
+duplicate$ -- 1501
+empty$ -- 2487
+format.name$ -- 101
+if$ -- 5672
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 0
-newline$ -- 165
-num.names$ -- 29
-pop$ -- 140
+int.to.str$ -- 43
+missing$ -- 1
+newline$ -- 217
+num.names$ -- 40
+pop$ -- 188
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 483
+skip$ -- 663
 stack$ -- 0
-substring$ -- 1739
-swap$ -- 349
-text.length$ -- 23
+substring$ -- 2594
+swap$ -- 479
+text.length$ -- 32
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 304
-warning$ -- 38
-while$ -- 159
-width$ -- 35
-write$ -- 276
-(There were 2 error messages)
+type$ -- 398
+warning$ -- 51
+while$ -- 231
+width$ -- 45
+write$ -- 366
+(There were 3 error messages)
