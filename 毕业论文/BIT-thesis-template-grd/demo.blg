@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: demo.aux
 The style file: GBT7714-2005NLang.bst
@@ -8,13 +8,14 @@ A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
 A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5.aux
+A level-1 auxiliary file: chapters/chapter6.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 A level-1 auxiliary file: chapters/pub.aux
 A level-1 auxiliary file: chapters/thanks.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: reference/luohui.bib
-I was expecting a `,' or a `}'---line 477 of file reference/luohui.bib
+I was expecting a `,' or a `}'---line 239 of file reference/luohui.bib
  :   
  :   publisher ="机械工业出版社"
 (Error may have been on previous line)
@@ -26,7 +27,7 @@ Warning--there's neither address nor school in zhang2014
 ptr=1, stack=
 从美国 “棱镜计划” 看我国网络信息安全问题~[D]
 ---the literal stack isn't empty for entry zhang2014
-while executing---line 5079 of file GBT7714-2005NLang.bst
+while executing---line 2540 of file GBT7714-2005NLang.bst
 Warning--The editor in hovemeyer2005evaluating is missing.
 Warning--empty editor in hovemeyer2005evaluating
 Warning--there's neither address nor publisher in gong2008
@@ -71,7 +72,7 @@ Warning--empty pages in nist
 Warning--The editor in vallee2010soot is missing.
 Warning--empty editor in vallee2010soot
 `editor' is a missing field, not a string, for entry leslie2001spectrum
-while executing---line 5079 of file GBT7714-2005NLang.bst
+while executing---line 2540 of file GBT7714-2005NLang.bst
 Warning--there's a publisher but no address in leslie2001spectrum
 Warning--The editor in shervashidze2009efficient is missing.
 Warning--empty editor in shervashidze2009efficient
@@ -83,7 +84,7 @@ Warning--empty editor in smola2007hilbert
 Done.
 You've used 43 entries,
             4577 wiz_defined-function locations,
-            1260 strings with 14315 characters,
+            1261 strings with 14336 characters,
 and the built_in function-call counts, 23126 in all, are:
 = -- 2649
 > -- 346

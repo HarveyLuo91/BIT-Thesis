@@ -1,0 +1,42 @@
+\hypersetup {hidelinks}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Eclipse3.0.1中存在的空指针引用缺陷\relax }}{2}{figure.caption.6}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 将整数空间的具体值域映射到抽象值域\relax }}{8}{figure.caption.7}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 4种工具在8650个测试用例上的检测结果\relax }}{14}{figure.caption.8}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces SonarQube平台工作流程\relax }}{18}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces BIT-Detector工作架构图\relax }}{19}{figure.caption.11}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 测试用例来源\relax }}{21}{figure.caption.12}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 抽象语法树示例\relax }}{23}{figure.caption.13}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 测试用例构建流程\relax }}{24}{figure.caption.15}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Soot工作流程\relax }}{26}{figure.caption.17}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 示例代码的Units关系图\relax }}{27}{figure.caption.18}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 全局控制流图构建示例\relax }}{31}{figure.caption.20}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 全局控制流图压缩示例\relax }}{33}{figure.caption.25}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 马尔可夫随机场\relax }}{41}{figure.caption.27}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 图数据隐变量建模\relax }}{42}{figure.caption.28}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces M-P神经元模型\relax }}{44}{figure.caption.29}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 常用激活函数\relax }}{44}{figure.caption.30}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 图特征抽取模型图示\relax }}{46}{figure.caption.31}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 完整分类模型图示\relax }}{47}{figure.caption.33}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 欠采样方法示例\relax }}{50}{figure.caption.35}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 过采样方法示例\relax }}{50}{figure.caption.35}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 不同组合的准确率\relax }}{51}{figure.caption.36}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces FindBugs\relax }}{52}{figure.caption.37}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Infer\relax }}{52}{figure.caption.37}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Jlint\relax }}{52}{figure.caption.37}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Fortify\relax }}{52}{figure.caption.37}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces FindBugs\relax }}{53}{figure.caption.38}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Infer\relax }}{53}{figure.caption.38}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Jlint\relax }}{53}{figure.caption.38}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Fortify\relax }}{53}{figure.caption.38}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces 不同阈值下的空指针检测准确率\relax }}{54}{figure.caption.39}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\contentsfinish 
